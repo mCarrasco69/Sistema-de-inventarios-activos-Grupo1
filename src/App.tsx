@@ -3,14 +3,14 @@ import { useLocalStorage } from "./hooks/useLocalStorage";
 import { Header } from "./components/Header";
 import { SearchAndFilter } from "./components/SearchAndFilter";
 import { ActivosTable } from "./components/ActivosTable";
-import { Activo, Estado } from "./types/Activo";
+import { Activo, Estado } from "./types";
 import {
   mostrarModalAgregarActivo,
   mostrarModalEditarActivo,
   confirmarCambioEstado,
   confirmarEliminar,
   mostrarExito,
-} from "./services/ActivosService";
+} from "./services/ActivosServices";
 
 const ejemplo: Activo[] = [
   {

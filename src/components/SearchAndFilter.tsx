@@ -1,4 +1,4 @@
-import { Estado } from "../types/Activo";
+import { Estado } from "../types";
 
 interface SearchAndFilterProps {
   search: string;

@@ -1,6 +1,6 @@
 import React from "react";
 import { TableRow } from "./TableRow";
-import { Activo, Estado } from "../types/Activo";
+import { Activo, Estado } from "../types";
 
 interface ActivosTableProps {
   activos: Activo[];

@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-import { Activo, Estado } from "../types/Activo";
+import { Activo, Estado } from "../types";
 import { escapeHtml } from "../utils/helpers";
 
 interface FormValues {
